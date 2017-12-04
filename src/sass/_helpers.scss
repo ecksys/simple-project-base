@@ -22,7 +22,17 @@
 }
 
 
+
+
+
 /* -- Font-Size -- */
+/* -- Set base font size to 10px -- */
+html {
+	font-size: 62.5%;
+}
+
+
+
 /* -- This assumes base font is 10px -- */
 @mixin font-size($sizeValue: 1.6) {
 	font-size: ($sizeValue * 1) + px;
